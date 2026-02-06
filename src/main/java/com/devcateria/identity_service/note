@@ -1,0 +1,8 @@
+package ENTITY : nơi chứa các khai báo bảng
+
+-UUID : Những chuỗi sẽ được random khác nhau và ko bao giờ trùng lặp
+
+package Repository: nơi tương tác trực tiếp với DB
+package Service : nơi xử lý logic
+
+@PathVariable: sử dụng khi giá trị đó là một phần của đường dẫn và xác định duy nhất một tài nguyên
