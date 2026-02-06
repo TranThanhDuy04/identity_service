@@ -6,3 +6,5 @@ package Repository: nơi tương tác trực tiếp với DB
 package Service : nơi xử lý logic
 
 @PathVariable: sử dụng khi giá trị đó là một phần của đường dẫn và xác định duy nhất một tài nguyên
+@ControllerAdvice: là cơ chế xử lý tập trung để bắt và xử lý các exception và không cần phải dùng try-catch
+@ExceptionHandler là annotation dùng để bắt và xử lý exception trong Spring à thường được dùng bên trong @ControllerAdvice.
