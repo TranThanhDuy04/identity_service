@@ -8,3 +8,6 @@ package Service : nơi xử lý logic
 @PathVariable: sử dụng khi giá trị đó là một phần của đường dẫn và xác định duy nhất một tài nguyên
 @ControllerAdvice: là cơ chế xử lý tập trung để bắt và xử lý các exception và không cần phải dùng try-catch
 @ExceptionHandler là annotation dùng để bắt và xử lý exception trong Spring à thường được dùng bên trong @ControllerAdvice.
+
+@Valid là annotation dùng để kích hoạt Bean Validation, bật cơ chế kiểm tra dữ liệu đầu vào theo các annotation như @NotNull, @Size
+@JsonInclude(JsonInclude.Include.NON_NULL) dùng để khai báo cho các trường nào null mà dưới dạng Json thì sẽ không hiển thị
