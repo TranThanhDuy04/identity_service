@@ -1,0 +1,15 @@
+- Entity là nơi khai báo hay chứa các
+- JPA thực chất là interface và bên dưới nó là hibernate để giúp chúng ta là một cái orm để giúp
+chúng ta làm việc với database giống như là những class thông thường
+
+- Repository chính là các cái class giúp chúng ta tương tác với DBMS và đây là JPA
+
+- Mỗi cái request trong Spring sẽ đi qua ít nhất 3 layer
+    + Controller: quản lý các mapping , các enpoint
+    + Service : là nơi xử lý các logic mà liên quan đến domain
+    + Repository: là nơi tương tác trực tiếp với DBMS
+
+- Một enpoint luôn luôn đi kèm với một method
+
+- Để map data từ request vào cái object thì dùng @RequestBody thì nó sẽ map data body vào cái object
+- Để map thông tin của cái path vào một cái biến thì chúng ta dùng @PathVariable
