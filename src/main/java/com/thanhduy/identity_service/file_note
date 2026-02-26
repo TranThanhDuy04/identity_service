@@ -13,3 +13,5 @@ chúng ta làm việc với database giống như là những class thông thư�
 
 - Để map data từ request vào cái object thì dùng @RequestBody thì nó sẽ map data body vào cái object
 - Để map thông tin của cái path vào một cái biến thì chúng ta dùng @PathVariable
+
+-validation là validate các dữ liệu mà người dùng nhập vào
