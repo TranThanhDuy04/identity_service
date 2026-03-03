@@ -15,3 +15,5 @@ chúng ta làm việc với database giống như là những class thông thư�
 - Để map thông tin của cái path vào một cái biến thì chúng ta dùng @PathVariable
 
 -validation là validate các dữ liệu mà người dùng nhập vào
+
+-Normalize api response : nghĩa là chuẩn hoá các API response của mình
