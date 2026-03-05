@@ -17,3 +17,7 @@ chúng ta làm việc với database giống như là những class thông thư�
 -validation là validate các dữ liệu mà người dùng nhập vào
 
 -Normalize api response : nghĩa là chuẩn hoá các API response của mình
+
+-Bcrypt là một implements station của cái PasswordEncoder
+
+-PasswordEncoder là một interface mà spring cung cấp cho các cái thuật toán implement vào
