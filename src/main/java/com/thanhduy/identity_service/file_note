@@ -21,3 +21,10 @@ chúng ta làm việc với database giống như là những class thông thư�
 -Bcrypt là một implements station của cái PasswordEncoder
 
 -PasswordEncoder là một interface mà spring cung cấp cho các cái thuật toán implement vào
+
+- JWT là chuẩn định dạng token dùng để xác thực và truyền thông tin user giữa client và server một cách an toàn
+- JWT có 3 phần chính : header: thông tin mã hoá thuật toán
+                        Payload: chứa đata user
+                        Signature: Server tạo chữ ký để đảm bảo token không bị sửa.
+- CSRF protection dùng để bảo vệ các endpoint khỏi request giả mạo từ website khác.
+
