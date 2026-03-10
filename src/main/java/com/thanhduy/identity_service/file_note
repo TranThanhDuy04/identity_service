@@ -28,3 +28,6 @@ chúng ta làm việc với database giống như là những class thông thư�
                         Signature: Server tạo chữ ký để đảm bảo token không bị sửa.
 - CSRF protection dùng để bảo vệ các endpoint khỏi request giả mạo từ website khác.
 
+- Authentication : tức là xác định bạn là ai khi truy cập vào hệ thống
+- Authorization(phân quyền): tức là quyết định bạn sẽ được làm gì trong hệ thống
+
