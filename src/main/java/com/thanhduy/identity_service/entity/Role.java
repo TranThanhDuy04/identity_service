@@ -1,11 +1,14 @@
 package com.thanhduy.identity_service.entity;
 
-import jakarta.persistence.*;
+import jakarta.persistence.Entity;
+
+import jakarta.persistence.Id;
+import jakarta.persistence.ManyToMany;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
 
-import java.time.LocalDate;
 import java.util.Set;
+
 
 @Entity
 @Getter
@@ -14,18 +17,12 @@ import java.util.Set;
 @NoArgsConstructor
 @AllArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE)
-public class User {
+public class Role {
     @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
-    String id;
-    String username;
-    String password;
-    String firstName;
-    String lastName;
-    LocalDate dob;
+    String name;
+    String description;
 
     @ManyToMany
-    Set<Role> roles;
-
+    Set<Permission> permissions;
 
 }
